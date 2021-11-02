@@ -1,11 +1,19 @@
 # TraderScript
+
 Dockerized program to setup InfluxDB with config script for daytrading purpose.
 
 ## Prerequisites
-Install ``git`` and ``docker``.
+
+Install `git` and `docker`.
 
 ## Initial setup:
-Clone the repo, navigate to ```TraderScript``` and execute ```init.cmd``` (Windows) or ```init.sh``` (Linux)
+
+Clone the repo, navigate to `TraderScript` and execute `init.cmd` (Windows) or `init.sh` (Linux)
 
 ## Run the program
-Execute ```startup.cmd``` (Windows) or ```startup.sh``` (Linux).
+
+Execute `startup.cmd` (Windows) or `startup.sh` (Linux).
+
+## Testing
+
+The `testing` directory contains a example config file (`input.txt`) and a server for providing mock data from a DAX data set.
