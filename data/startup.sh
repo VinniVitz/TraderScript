@@ -32,8 +32,8 @@ read -p "Please input the path of the directory where InfluxDB data will be pers
 influx_data=${influx_data:-"$HOME/.influxdata"}
 clear
 
-read -p "Please input the the path of your script file. [$HOME/input.txt]:" script_file_path
-script_file_path="${script_file_path:-$HOME/"input.txt"}/"
+read -p "Please input the the path of your script file. [$HOME/config.txt]:" script_file_path
+script_file_path="${script_file_path:-$HOME/"config.txt"}/"
 clear
 
 read -p "Please input the local trading coach dashboard web ui port [4200]:" dashboard_port

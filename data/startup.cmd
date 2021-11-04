@@ -19,8 +19,8 @@ set /p influx_data=Please input the path of the directory where InfluxDB data wi
 if "x%influx_data%x" == "xx" set influx_data=%userprofile%\.influxdata
 cls
 set script_file_path=
-set /p script_file_path=Please input the the path of your script file. [%userprofile%\input.txt]:
-if "x%script_file_path%x" == "xx" set script_file_path=%userprofile%\input.txt
+set /p script_file_path=Please input the the path of your script file. [%userprofile%\config.txt]:
+if "x%script_file_path%x" == "xx" set script_file_path=%userprofile%\config.txt
 cls
 set dashboard_port=
 set /p dashboard_port=Please input the local trading coach dashboard web ui port [4200]:
