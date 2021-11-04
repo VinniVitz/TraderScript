@@ -4,6 +4,8 @@ COPY script-parser.js /home
 COPY lib /home/lib
 COPY run.sh /home
 COPY watch.sh /home
+RUN mkdir /home/license
+COPY LICENSE.txt /home/license
 RUN chmod +x /home/run.sh
 RUN chmod +x /home/watch.sh
 RUN apt-get update
