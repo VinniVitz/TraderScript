@@ -16,4 +16,4 @@ Execute `startup.cmd` (Windows) or `startup.sh` (Linux).
 
 ## Testing
 
-The `testing` directory contains a example config file (`input.txt`) and a server for providing mock data from a DAX data set.
+The `testing` directory contains a example config file (`config.txt`) and a server for providing mock data from a DAX data set.
