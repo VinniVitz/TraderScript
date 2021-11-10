@@ -18,7 +18,7 @@ Execute `startup.cmd` (Windows) or `startup.sh` (Linux).
 
 The `testing` directory contains a example config file (`config.txt`) and a server for providing mock data from a DAX data set.
 To start the server install `nodejs`, navigate to `testing/server` and run `node server.js`.
-The default port is 3001. If you want to change it set the environment variable `MOCK_SERVER_PORT` to `true`.
+The default port is 3001. If you want to change it set the environment variable `MOCK_SERVER_PORT`.
 The default endpoints are `POST` requests to `/test1`, `/test2`, `/test3`, `/test4`.
 On `POST` request they log the corresponding endpoint to the console.
 
