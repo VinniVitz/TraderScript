@@ -28,7 +28,7 @@ Problem: Windows uses `CRLF` linebreak style but for scripts `LF` is required.
 Solution: You have to change the linebreak style for the files `data/run.sh` and `data/watch.sh`.
 
 Steps:
- - delte the repo and pull it again
+ - delete the repo and pull it again
  - In Notepad++ go to edit -> EOL conversion -> change from CRLF to LF.
  - in VS Code you can change the style in the status bar on the bottom of the page 
  - then run again `init.cmd` and then `startup.cmd`. It should solve the problem.
