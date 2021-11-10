@@ -26,6 +26,7 @@ On windows when starting the docker container sometimes the following error occu
 Problem: Windows uses `CRLF` linebreak style but for scripts `LF` is required.
 
 Solution: You have to change the linebreak style for the files `data/run.sh` and `data/watch.sh`.
+
 Steps:
  - delte the repo and pull it again
  - In Notepad++ go to edit -> EOL conversion -> change from CRLF to LF.
