@@ -27,7 +27,7 @@ On request they log the corresponding endpoint to the console.
 On windows when starting the docker container sometimes the following error occurs:
 `standard_init_linux.go:190: exec user process caused "no such file or directory"`
 
-Problem: Windows uses `CRLF` linebreak style but for scripts `LF` is required.
+Problem: Windows uses `CRLF` linebreak style but for UNIX-like scripts `LF` is required.
 
 Solution: You have to change the linebreak style for the files `data/run.sh` and `data/watch.sh`.
 
