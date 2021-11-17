@@ -17,13 +17,17 @@ Execute `startup.cmd` (Windows) or `startup.sh` (Linux).
 ## Testing
 
 The `testing` directory contains a example config file (`config.txt`) and a server for providing mock data from a DAX data set.
+To start the server install `nodejs`, navigate to `testing/server` and run `node server.js`.
+The default port is 3001. If you want to change it set the environment variable `MOCK_SERVER_PORT`.
+The default endpoints are `POST` requests to `/test1`, `/test2`, `/test3`, `/test4`.
+On request they log the corresponding endpoint to the console.
 
 ## Troubleshooting
 
 On windows when starting the docker container sometimes the following error occurs:
 `standard_init_linux.go:190: exec user process caused "no such file or directory"`
 
-Problem: Windows uses `CRLF` linebreak style but for scripts `LF` is required.
+Problem: Windows uses `CRLF` linebreak style but for UNIX-like scripts `LF` is required.
 
 Solution: You have to change the linebreak style for the files `data/run.sh` and `data/watch.sh`.
 
