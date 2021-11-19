@@ -40,11 +40,11 @@ read -p "Please input the local trading coach dashboard web ui port [4200]:" das
 dashboard_port=${dashboard_port:-4200}
 clear
 
-read -p "Please type the name for the docker image [trading-coach]:" docker_image
+read -p "Please type the name for the docker image [traderscript]:" docker_image
 docker_image=${docker_image:-trading-coach}
 clear
 
-read -p "Please type a name for the docker project [trading-coach]:" docker_container
+read -p "Please type a name for the docker project [traderscript]:" docker_container
 docker_container=${docker_container:-trading-coach}
 clear
 
