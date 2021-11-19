@@ -27,11 +27,11 @@ set /p dashboard_port=Please input the local trading coach dashboard web ui port
 if "x%dashboard_port%x" == "xx" set dashboard_port=4200
 cls
 set docker_container=
-set /p docker_container=Please type a name for the docker project [traderscript]:
+set /p docker_container=Please choose a name for the docker project [traderscript]:
 if "x%docker_container%x" == "xx" set docker_container=trading-coach
 cls
 set docker_image=
-set /p docker_image=Please type a name for the docker project [traderscript]:
+set /p docker_image=Please type the name of the docker image [traderscript]:
 if "x%docker_image%x" == "xx" set docker_image=trading-coach
 cls
 set setup_influx=
