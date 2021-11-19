@@ -28,11 +28,11 @@ if "x%dashboard_port%x" == "xx" set dashboard_port=4200
 cls
 set docker_container=
 set /p docker_container=Please choose a name for the docker project [traderscript]:
-if "x%docker_container%x" == "xx" set docker_container=trading-coach
+if "x%docker_container%x" == "xx" set docker_container=traderscript
 cls
 set docker_image=
 set /p docker_image=Please type the name of the docker image [traderscript]:
-if "x%docker_image%x" == "xx" set docker_image=trading-coach
+if "x%docker_image%x" == "xx" set docker_image=traderscript
 cls
 set setup_influx=
 set /p setup_influx=Do you already setup your InfluxDB account? [y/n]:
