@@ -41,11 +41,11 @@ dashboard_port=${dashboard_port:-4200}
 clear
 
 read -p "Please type the name for the docker image [traderscript]:" docker_image
-docker_image=${docker_image:-trading-coach}
+docker_image=${docker_image:-traderscript}
 clear
 
 read -p "Please type a name for the docker project [traderscript]:" docker_container
-docker_container=${docker_container:-trading-coach}
+docker_container=${docker_container:-traderscript}
 clear
 
 read -p "Do you already setup your InfluxDB account? [y/n]:" setup_influx
